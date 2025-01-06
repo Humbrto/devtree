@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "dist", //Donde se va a compiliar a producción
+        "rootDir": "src", // Donde se va a encontrar nuestro codigo
+        "lib": ["ESNext"], //Lista de biblioteca de JS que quieres que esten disponibles en el proyecto (ESNext es la version mas reciemte de ESM)
+        "target": "ESNext", // Nivel de la version que vamos a compilar nuestro codigo de typescript
+        "moduleResolution": "NodeNext",// Como se van a compilar los modulos
+        "module": "NodeNext",
+        "strict": false,//Reglas de typeScript
+        "sourceMap": true,//Archivos para debut para typescript
+        "esModuleInterop": true,//Permite utilizas modulos de CJS y ESM
+        "declaration": true,//Habilitar la generacion de los archivos 
+
+    },
+    "include": ["src/**/*.ts"]
+}
